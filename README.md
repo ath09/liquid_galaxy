@@ -1,7 +1,7 @@
 # liquid_galaxy
 This is the flutter app for requirement 3.2
 
-It consists of 2 pages. I have changed the icon of the app to the liquid galaxy logo by editing the actual flutter logo in the mipmap files of the res folder. I have maintained a top-down color gradient (light red + light blue) for both the pages. The main.dart file has a stateless widget as no activity is performed there but the home method which tells the app where to go next is directed to the splash screen page. As soon as we open the app (after closing it) we see the splash screen which runs for 4 seconds.
+It consists of 2 pages. I have changed the icon of the app to the liquid galaxy logo by editing the actual flutter logo in the mipmap files of the res folder. I have maintained a top-down color gradient (light red + light blue) for both the pages in the app_color.dart file inside the themes folder. The main.dart file has a stateless widget as no activity is performed there but the home method which tells the app where to go next is directed to the splash screen page. As soon as we open the app (after closing it) we see the splash screen which runs for 4 seconds.
 
 In the splash screen page : 
 
@@ -33,7 +33,7 @@ The changes done in the pubspec.yaml file are :
 
 2) A separate folder for images is made and all the used images are included in the assets tag in this .yaml file.
 
-Also some changes are done in the build file :
+Also some changes are done in the build.gradle file inside app folder of android :
 
 The compilesdkversion was made 33 so that the url's can function properly.
 
